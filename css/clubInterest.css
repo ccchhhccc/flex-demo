@@ -1,0 +1,176 @@
+*,p,img,a,em,b{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+header{
+	width: 100%;
+	height: 4.4rem;
+	background: #12b7f5;
+	display: flex;
+	justify-content: space-between;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: fixed;
+	top: 0;
+}
+.hl{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+header img{
+	width: 1.3rem;
+	height: 2.1rem;
+	margin-left: 1.2rem;
+	margin-right: 0.5rem;
+}
+header span{
+	font-size: 1.5rem;
+	color: #fff;
+}
+header h3{
+	font-size: 1.7rem;
+	color: #fff;
+}
+header i{
+	font-size: 1.5rem;
+	color: #fff;
+	margin-right: 1.2rem;
+	font-style: normal;
+}
+.nav{
+	margin-top: 4.4rem;
+}
+.nav ul{
+	height: 4.3rem;
+	display: flex;
+	justify-content: space-around;
+	border-bottom: 1px solid #dedfe0;
+}
+.nav ul li{
+	height: 4rem;
+	font-size: 1.5rem;
+	display: flex;
+	align-items: center;
+}
+.nav ul li a{
+	color: #808080;
+}
+.nav ul .nowli a{
+	color: #00a5e0;
+}
+.nav ul li a{
+	padding: 0 0.8rem;
+}
+.nav .nowli{
+	border-bottom: 0.3rem solid #00a5e0;
+}
+.title h3{
+	font-size: 1.6rem;
+	line-height: 2rem;
+	margin: 1.4rem 1.2rem 1.4rem 1.2rem;
+}
+.contentlist{
+	border-bottom: 1px solid #dedfe0;
+	/*display: flex;
+	justify-content: space-between;
+	flex-direction: column;*/
+}
+.main{
+	height: 7rem;
+	margin: 0 1.2rem;
+	display: flex;
+	justify-content: space-between;
+}
+.main img{
+	width: 7rem;
+	height: 7rem;
+}
+.mainr{
+	flex: 1;
+	background: #f6f6f6;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+}
+.mainr h6{
+	font-size: 1.5rem;
+	margin-bottom: 1.7rem;
+	margin-left: 1.3rem;
+}
+.user{
+	padding-top: 1.5rem;
+}
+.user span{
+	margin-left: 1.3rem;
+	margin-right: 1rem;
+	color: #bbbbbb;
+	font-size:1.1rem;
+}
+.user b{
+	font-weight: normal;
+	color: #bbbbbb;
+	font-size:1.1rem;
+}
+.bottom{
+	height: 2rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin:  1.1rem 1.2rem 1.5rem 1.2rem;
+}
+.bottom .userimg{
+	width: 2rem;
+	height: 2rem;
+	margin-right: 0.6rem;
+	margin-left: ;
+}
+.bottom .dianzan{
+	width:1.1rem;
+	height: 1.1rem;
+	margin-right: 0.4rem;
+}
+.bottom .huifu{
+	width:1.1rem;
+	height: 1.1rem;
+	margin-right: 0.4rem;
+}
+.bl{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	
+}
+.bl i{
+	font-size: 1.1rem;
+	font-style: normal;
+	margin-right: 1.3rem;
+}
+.bl strong{
+	font-weight: normal;
+	font-size: 1.1rem;
+	margin-right: 1.3rem;
+}
+.bottom em{
+	display: inline-block;
+	width: 2.5rem;
+	height: 1.55rem;
+	line-height: 1.55rem;
+	font-size: 0.95rem;
+	text-align: center;
+	color: #a3e0f6;
+	border: 1px solid #81d4f3;
+	font-style: normal;
+	margin-right: 0.15rem;
+	border-radius: 0.2rem;
+}
+.zuoye{
+	height: 12rem;
+}
